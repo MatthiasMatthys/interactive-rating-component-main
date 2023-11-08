@@ -1,0 +1,66 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: "Overpass", "sans-serif";
+}
+
+.container {
+    padding-top: 2%;
+    max-width: 1200px;
+    margin: auto;
+}
+.rating{
+    background-color: hsl(213, 19%, 18%);
+    margin: auto;
+    width: 30%;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 25px;
+}
+.thanks{
+    background-color: hsl(213, 19%, 18%);
+    margin: auto;
+    width: 30%;
+    padding: 20px;
+    border-radius: 25px;
+}
+h1{
+    color: white;
+}
+p{
+    color:hsl(217, 12%, 63%);
+}
+
+.star{
+    height: 20px;
+    width: 20px;
+    padding: 15px;
+    background-color:hsl(216, 15%, 41%);
+    border-radius: 50%;
+}
+
+button{
+    margin-top: 25px;
+    background-color: hsl(25, 97%, 53%);
+    padding: 10px;
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    color: white;
+}
+.btn-group button{
+    background-color:hsl(216, 15%, 41%);
+    color: hsl(217, 12%, 63%);
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 4%;
+
+}
+.btn-group button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+
+}
