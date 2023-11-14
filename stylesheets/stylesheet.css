@@ -58,9 +58,20 @@ button{
     margin-left: 4%;
 
 }
+.submitbtn button:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    cursor: pointer;
+}
+
 .btn-group button:hover{
     background-color: hsl(25, 97%, 53%);
     color: white;
     cursor: pointer;
 
 }
+
+.btn-group button.clicked {
+    background-color: rgb(185, 185, 185);
+    color: white;
+  }
