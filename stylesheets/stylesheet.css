@@ -1,14 +1,15 @@
-body{
+body {
     background-color: hsl(216, 12%, 8%);
     font-family: "Overpass", "sans-serif";
 }
 
 .container {
-    padding-top: 2%;
+    padding-top: 15%;
     max-width: 1200px;
     margin: auto;
 }
-.rating{
+
+.rating {
     background-color: hsl(213, 19%, 18%);
     margin: auto;
     width: 30%;
@@ -16,29 +17,34 @@ body{
     padding: 20px;
     border-radius: 25px;
 }
-.thanks{
+
+.thanks {
     background-color: hsl(213, 19%, 18%);
     margin: auto;
     width: 30%;
     padding: 20px;
     border-radius: 25px;
-}
-h1{
-    color: white;
-}
-p{
-    color:hsl(217, 12%, 63%);
+    text-align: center;
+    visibility: hidden;
 }
 
-.star{
+h1 {
+    color: white;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
+
+.star {
     height: 20px;
     width: 20px;
     padding: 15px;
-    background-color:hsl(216, 15%, 41%);
+    background-color: hsl(216, 15%, 41%);
     border-radius: 50%;
 }
 
-button{
+button {
     margin-top: 25px;
     background-color: hsl(25, 97%, 53%);
     padding: 10px;
@@ -47,8 +53,9 @@ button{
     border: none;
     color: white;
 }
-.btn-group button{
-    background-color:hsl(216, 15%, 41%);
+
+.btn-group button {
+    background-color: hsl(216, 15%, 41%);
     color: hsl(217, 12%, 63%);
     border: none;
     border-radius: 50%;
@@ -58,13 +65,14 @@ button{
     margin-left: 4%;
 
 }
-.submitbtn button:hover{
+
+.submitbtn button:hover {
     color: hsl(25, 97%, 53%);
     background-color: white;
     cursor: pointer;
 }
 
-.btn-group button:hover{
+.btn-group button:hover {
     background-color: hsl(25, 97%, 53%);
     color: white;
     cursor: pointer;
@@ -74,4 +82,4 @@ button{
 .btn-group button.clicked {
     background-color: rgb(185, 185, 185);
     color: white;
-  }
+}
