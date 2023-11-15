@@ -83,3 +83,15 @@ button {
     background-color: rgb(185, 185, 185);
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .rating {
+        width: 85%;
+    }
+    .thanks {
+        width: 85%;
+    }
+    .container {
+        padding-top: 50%;
+    }
+}
